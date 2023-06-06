@@ -1,0 +1,101 @@
+{
+    "Children": [
+        {
+            "Children": [],
+            "Components": {
+                "HierarchyComponent": {},
+                "MeshComponent": {
+                    "Mesh": "Models/Avocado/Avocado.gltf",
+                    "Mesh Index": 0
+                },
+                "Perry::NameComponent": {
+                    "Name": "Avocado"
+                },
+                "TransformComponent": {
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Rotation": [
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                }
+            }
+        },
+        {
+            "Children": [],
+            "Components": {
+                "HierarchyComponent": {},
+                "Perry::NameComponent": {
+                    "Name": "Child"
+                },
+                "SpriteComponent": {
+                    "AnimationSpeed": 1.0,
+                    "AnimationTimer": 159.61181640625,
+                    "Color": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "CurrentFrame": 3,
+                    "Emissive Factor": 1.0,
+                    "File Path": "Textures/attackVFX/chain_on_hit_spritesheet.png",
+                    "FramesInTexture": 6,
+                    "Use Blending": false
+                },
+                "TransformComponent": {
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Rotation": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.570087730884552
+                    ],
+                    "Scale": [
+                        0.10000000149011612,
+                        0.10000000149011612,
+                        0.10000000149011612
+                    ]
+                }
+            }
+        }
+    ],
+    "Components": {
+        "HierarchyComponent": {},
+        "Perry::NameComponent": {
+            "Name": "Parent"
+        },
+        "TransformComponent": {
+            "Position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "Scale": [
+                10.0,
+                10.0,
+                10.0
+            ]
+        }
+    }
+}
