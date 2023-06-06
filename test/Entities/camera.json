@@ -1,0 +1,37 @@
+{
+    "Children": [],
+    "Components": {
+        "CameraComponent": {
+            "FOV": 80.0,
+            "FarClip": 100.0,
+            "NearClip": 0.10000000149011612
+        },
+        "FlyingMovementComponent": {
+            "MovementSpeed": 2.0,
+            "Pitch": -0.7299999594688416,
+            "RotationSpeed": 1.0,
+            "Yaw": -1.028999924659729
+        },
+        "Perry::NameComponent": {
+            "Name": "Camera"
+        },
+        "TransformComponent": {
+            "Position": [
+                -1.497128963470459,
+                1.732287049293518,
+                1.225554347038269
+            ],
+            "Rotation": [
+                -0.3107382357120514,
+                -0.4596819281578064,
+                -0.1756545901298523,
+                0.8131910562515259
+            ],
+            "Scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    }
+}
